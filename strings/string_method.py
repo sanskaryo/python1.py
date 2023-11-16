@@ -1,4 +1,4 @@
-text = " python Programming  "
+text = " python Programming GLA  "
 # text1 = " My university name is :- GLA University"
 
 
@@ -17,5 +17,5 @@ print("Capitalize:", Capitalize)
 # replaced_text = text.replace("programming", "Coding")
 # print(replaced_text)
 
-# index = text1.find("GLA")
-# print(index)
+index = text.find("GLA")
+print(index)

@@ -1,4 +1,6 @@
-a = 2
-b = 2
-sum1 = (a+b)
-print(sum1)
+for i in range(6):
+    print(i)
+    if i ==4:
+        break
+else:
+    print("nope")

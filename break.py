@@ -3,7 +3,7 @@ name1=["shailesh","kartik","shubhang"]
 for item in list1:
     for name in name1:
         print(item,name)
-        if item=="hola" and name=="shubhang":
+        if item=="hola" and name=="kartik":
             break
     print("out from inner loop")  
 print("out from outer loop")      

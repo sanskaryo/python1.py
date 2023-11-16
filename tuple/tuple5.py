@@ -1,0 +1,12 @@
+t =(1,2,3,4,56)
+s1 = sum(t)
+print(t[0])
+s=sum(t,10)
+print(s1)
+print(s)
+# print(max(t))
+# print(min(t))
+# print (t.count("2"))
+# print(s)
+# for a in t:
+#     print(a)

@@ -8,3 +8,4 @@ for i in range(1, num+1):
 
 print(f"The factorial of {num} is : ", end="")
 print(factorial)
+

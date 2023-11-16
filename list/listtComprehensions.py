@@ -28,4 +28,4 @@ print(name_length)
 print()
 
 num = [ x +2  for x in range(100) if x %5 == 0  ]
-print(f"numbers divisible by 5 and adding 2 " ,num)
+print(f"numbers divisible by 5 and adding 2 {num}")

@@ -1,0 +1,12 @@
+n = int(input())
+cake_pieces = list(map(int, input().split()))
+
+# Count the number of cherries
+num_cherries = sum(cake_pieces)
+
+# If there are no cherries, there's only one way (no breaks)
+if num_cherries == 0:
+    print(1)
+else:
+    # Otherwise, the number of ways is equal to the number of cherries minus 1
+    print(num_cherries )

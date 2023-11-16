@@ -5,6 +5,6 @@ for x in myData:
     
 myData1 = ["a", "b", "c"]
 for i in range (len(myData1)):
-    print(myData1[1])
+    print(myData1[i])
     
 myData2 = ["a", "b", "c"]
