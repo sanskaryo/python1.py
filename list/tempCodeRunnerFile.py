@@ -1,13 +1,7 @@
-my_list = [1, 5, 2, 7, 3, 9, 5]
+list1 = ["a", "b", "c"]
+list2 = [1,2,3]
 
-# largest = 0
-# second_largest = 0;
-
-# for num in my_list:
-#     if num > largest:
-#         second_largest = largest
-#         largest = num
-#     elif num > second_largest and num != largest:
-#         second_largest = num
-
-# print("The second largest element in the list is:", second_largest)
+for x in list2:
+    list1.append(x)
+    
+print(list1)

@@ -10,3 +10,5 @@ while True:
   indices.append(index)
 
 print(indices)
+
+

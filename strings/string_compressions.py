@@ -11,9 +11,6 @@
 
 # compression += sample[-1] + str(count)  # Move this line inside the loop
 # print(compression)\
-    
-    
-    
 first = input("Enter the string: ")
 second = input("Enter the string : ")
 
