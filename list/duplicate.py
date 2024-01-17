@@ -8,3 +8,4 @@ for element in my_list:
         result.append(element)
 
 print(result)
+

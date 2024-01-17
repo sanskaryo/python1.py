@@ -3,7 +3,8 @@ for color in colors:
     print(color)
     for i in color:
         print(i)
-       
+
+
 
 # number = [-2,3,-3,2,12]
 # number.sort()

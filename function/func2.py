@@ -6,7 +6,6 @@ fruits = ["apple", "banana", "cherry"]
 
 my_function(fruits)
 
-
 def my_function(x):
     return 5 * x
 

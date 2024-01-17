@@ -4,7 +4,7 @@ thisDict={
     "year":1964
 }
 
-thisDict.pop("model")
+thisDict.pop["year"]
 
 print(thisDict)
 
@@ -22,11 +22,11 @@ print(thisDict )
 # del thisDict["brand"]
 # print(thisDict)
 
-thisDict={
-    "brand":"Ford",
-    "model":"Mustang",
-    "year":1964
-}
+# thisDict={
+#     "brand":"Ford",
+#     "model":"Mustang",
+#     "year":1964
+# }
 
-thisDict.clear()
-print(thisDict)
+# thisDict.clear()
+# print(thisDict)

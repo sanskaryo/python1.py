@@ -15,6 +15,6 @@ print()
 
 print("cubic_numbers" , cubic_numbers)
 
-even_odd_check = list(map(lambda x : "even" if x % 2 == 0 else "odd" , numbers))
+# even_odd_check = list(map(lambda x : "even" if x % 2 == 0 else "odd" , numbers))
 
-print("Result:", even_odd_check)
+# print("Result:", even_odd_check)

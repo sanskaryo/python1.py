@@ -17,4 +17,4 @@ sum_of_numbers = 0
 for num in numbers:
     sum_of_numbers += num
 
-print("The sum is:", sum_of_numbers)
+print("The sum is:", sum_of_numbers) 

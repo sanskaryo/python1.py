@@ -1,0 +1,20 @@
+for _ in range(T):
+    N = int(input())
+    health_Alice, health_Bob = map(int, input().split())
+    pets = input().strip()
+
+    winner = "Both"
+    for pet in pets:
+        if pet == 'D':
+            health_Alice -= 1
+        else:
+            health_Bob -= 1
+
+        if health_Alice == 0:
+            winner = "Bob"
+            break
+        elif health_Bob == 0:
+            winner = "Alice"
+            break
+
+    print(winner)

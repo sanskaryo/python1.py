@@ -1,0 +1,25 @@
+# write a program in python without def and comments  to calculate factorial of each number of list(contain n value read from user) using function name FACT()  which read a number and return factorial of each number printed seprated by space 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -18,3 +18,5 @@ print(mystudents["stud"]["name"])
 print()
 for x , y in mystudents.items():
     print(x,y)
+    
+    

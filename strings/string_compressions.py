@@ -11,18 +11,18 @@
 
 # compression += sample[-1] + str(count)  # Move this line inside the loop
 # print(compression)\
-first = input("Enter the string: ")
-second = input("Enter the string : ")
+first = input("Enter the first string: ")
+second = input("Enter the second string: ")
 
 if len(first) != len(second):
-    is_rotation = True
+    is_rotation = False
 else:
-    concatenated = first + second
-    if second is concatenated:
+    concatenated = first + first
+    if second in concatenated:
         is_rotation = True
     else:
         is_rotation = False
-        
-print(f" the second string is a rotation of the first string is {is_rotation} ")
-    
+
+print(f"The second string is a rotation of the first string: {is_rotation}")
+
   

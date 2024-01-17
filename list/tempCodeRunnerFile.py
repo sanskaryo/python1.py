@@ -1,7 +1,3 @@
-list1 = ["a", "b", "c"]
-list2 = [1,2,3]
+list1 = [3, 4, 5, 20, 5]
+print(list1.index(5))
 
-for x in list2:
-    list1.append(x)
-    
-print(list1)
