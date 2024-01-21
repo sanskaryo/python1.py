@@ -12,4 +12,4 @@ class Employee:
 employee1 = Employee("Ravi", 456, 500)
 employee1.hours_worked = 70
 salary = employee1.calculate_salary()
-print(salary)  # Output: 800
+print(f" salary of employee  is {salary}")  
