@@ -1,12 +1,34 @@
 class Student:
-    def __init__(self, name, roll_number):
+    def __init__(self):
+        self.name = 'NA'
+        self.age = 'NA'
+        self.percentage = 'NA'
+
+    def setdetail(self, name, age, percentage):
         self.name = name
-        self.roll_number = roll_number
-    
+        self.age = age
+        self.percentage = percentage
+
+    def calculate_grade(self):
+        if self.percentage >= 90:
+            return 'O'
+        elif self.percentage >= 80:
+            return 'A'
+        elif self.percentage >= 70:
+            return 'B'
+        elif self.percentage >= 60:
+            return 'C'
+        else:
+            return 'D'
+
+    def getdetail(self):
+        return f"Name: {self.name}, Age: {self.age}, Percentage: {self.percentage}"
+
     def display_details(self):
-        print(f"Name: {self.name}, Roll Number: {self.roll_number}")
-# Example usage
-student1 = Student("Sanskar", 44)
+        grade = self.calculate_grade()
+        print(f"Name: {self.name}, Age: {self.age}, Grade: {grade}")
+
+# main
+student1 = Student()
+student1.setdetail("Sanskar", 20, 95)
 student1.display_details()
-# Brief Description:
-# I've implemented a Student class with attributes for name and roll number. The class has a method to display student details.

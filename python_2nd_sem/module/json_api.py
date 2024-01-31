@@ -1,6 +1,6 @@
-# Import the requests and json modules for making HTTP requests and handling JSON data, respectively.
-import requests
 import json
+import requests  # Don't forget to import the requests module
+
 # Specify the URL of the API endpoint for retrieving information about fish species.
 url = "https://www.fishwatch.gov/api/species"
 # Make an HTTP GET request to the specified URL and store the response in the data variable.

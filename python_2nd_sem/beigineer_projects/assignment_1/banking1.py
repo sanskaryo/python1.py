@@ -2,7 +2,7 @@ import uuid
 
 class Banking:
 
-    def __init__(self):
+    def __init__(self, account_no):
         self.balance = 0
         self.transactions = {}
 
