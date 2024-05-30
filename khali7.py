@@ -1,14 +1,27 @@
-a = " python is grt"
-b = a[::2]
-print(b)
+# a = 5
+# i =1
+# fact = 1
+# for i in range ( i,a+1):
+#   fact = fact*i
+  
+
+
+
+# print(fact)
 
 
 
 
-
-
-
-
+class MathOperations:
+  def add(self, x, y):
+    return x + y
+def add(self, x, y, z):
+   return x + y + z
+math_ops = MathOperations()
+result1 = math_ops.add(2, 3)
+result2 = math_ops.add(2, 3, 4)
+print("Result 1:", result1) # Output: Result 1: 5
+print("Result 2:", result2) # Output: Result 2: 9
 
 
 
